@@ -25,7 +25,7 @@ public class Lynchbellsorusu {
         for(int i = 1000; i <= 9999; i++){
             ArrayList<Integer> iArray = arrCevir(i);
             
-            if(!iArray.contains(0)){ //bir sayıyı 0'a böldüğümüzde program hata vereceğinden dolayı içinde sıfır olmayan sayıları işleme alıyoruz. 
+            if(!iArray.contains(0)){ //bir sayıyı 0'a böldüğümüzde program hata verdiğinden dolayı içinde sıfır olmayan sayıları işleme alıyoruz. 
                 if((i % iArray.get(0) == 0) && (i % iArray.get(1) == 0) && (i % iArray.get(2) == 0) && (i % iArray.get(3) == 0)){
                     System.out.println(i);
                 }
