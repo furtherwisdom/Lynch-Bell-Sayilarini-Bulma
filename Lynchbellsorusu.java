@@ -8,7 +8,7 @@ public class Lynchbellsorusu {
     //kontrol edilecek sayıları ilk önce stringe cast edip daha sonra sayıyı oluşturan rakamları arrayListe atan method.
     private static ArrayList<Integer> arrCevir(int cevrilecekSayi){
         
-        String sayiString = String.valueOf(cevrilecekSayi); //girilen sayıyı stringe cast edip sayiString değişkenine tanımlıyor.
+        String sayiString = String.valueOf(cevrilecekSayi);
         ArrayList<Integer> intArray = new ArrayList<>(); 
         
         for(int i = 0 ; i < sayiString.length(); i++){ 
